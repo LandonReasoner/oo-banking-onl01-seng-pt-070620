@@ -17,9 +17,7 @@ class Transfer
   end
   
   def execute_transaction
-    @sender.balance ||= new_amount
-    @receiver.balance ||= new_amount
-    @status = "complete"
+   
   end 
   
     
